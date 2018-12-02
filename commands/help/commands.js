@@ -33,7 +33,7 @@ exports.exec = async (Bastion, message, args) => {
       embed: {
         color: Bastion.colors.GOLD,
         title: 'List of Commands',
-        description: 'To get a complete list of all the commands with details, visit [my website](https://bastionbot.org/) and check out the commands section: https://bastionbot.org/commands.',
+        description: 'If you have any questions, please DM nasmithey#7006.',
         fields: fields,
         footer: {
           text: `A Total of ${Bastion.commands.size} Commands!`
